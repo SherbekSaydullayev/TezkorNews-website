@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  
+  
+<div class="content-wrapper">
+        <div class="container">
+          <div class="row">
+<div class="col-sm-12">
+              <div class="card aos-init aos-animate" data-aos="fade-up">
+                <div class="card-body">
+                  <div class="aboutus-wrapper">
+                    <h1 class="mt-5">
+                    {{ yangiliklar2.title }}
+                    </h1>
+                    <p class="font-weight-600 fs-15">
+                      </p>
+
+<p class="font-weight-600 fs-15"><em>{{ yangiliklar2.text }}</em></p>
+
+<p class="font-weight-600 fs-15"><em>{{ yangiliklar2.text }}</em></p>
+                    <p></p>
+                    <br>
+                    <img style="border-radius: 20px" src="{{ yangiliklar2.image.url }}" alt="banner" class="img-fluid mb-5">
+
+
+                    <p class="font-weight-600 fs-15 mb-5 mt-4 text-center">
+                      He has led a remarkable campaign, defying the traditional
+                      mainstream parties courtesy of his En Marche! movement.
+                      For many, however, the campaign has become less about
+                      backing Macron and instead about voting against Le Pen,
+                      the National Front candidate.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div>
+      </div>
+
+
+{% endblock content %}
+
